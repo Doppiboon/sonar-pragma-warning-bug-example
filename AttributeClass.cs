@@ -1,9 +1,9 @@
 ﻿namespace SonarPragmaWarningBugExample;
 
 [AttributeUsage(AttributeTargets.All)]
-// #pragma warning disable S3376 // Sonar Extension removes this
+#pragma warning disable S3376 // Sonar Extension removes this
 public class AttributeClass : Attribute
-// #pragma warning restore S3376 // Sonar Extension removes this
+#pragma warning restore S3376 // Sonar Extension removes this
 {
 	public AttributeClass(string textValue, int numberValue)
 	{
