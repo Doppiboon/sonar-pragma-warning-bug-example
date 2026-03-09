@@ -14,20 +14,20 @@ public class AbstractClass
 	public List<string> TestData { get; set; }
 #pragma warning restore CS8618 // Sonar Extension accepts this
 
-	//#pragma warning disable CA1822 // Sonar Extension removes this
-	//#pragma warning disable S2325 // Sonar Extension removes this
+#pragma warning disable CA1822 // Sonar Extension removes this
+#pragma warning disable S2325 // Sonar Extension removes this
 	public Task DoSomething()
-	//#pragma warning restore CA1822 // Sonar Extension removes this
-	//#pragma warning restore S2325 // Sonar Extension removes this
+#pragma warning restore CA1822 // Sonar Extension removes this
+#pragma warning restore S2325 // Sonar Extension removes this
 	{
 		return Task.CompletedTask;
 	}
 
-	//#pragma warning disable CA1822 // Sonar Extension removes this
-	//#pragma warning disable S2325 // Sonar Extension removes this
+#pragma warning disable CA1822 // Sonar Extension removes this
+#pragma warning disable S2325 // Sonar Extension removes this
 	public async Task<string> DoSomethingInParallel()
-	//#pragma warning restore CA1822 // Sonar Extension removes this
-	//#pragma warning restore S2325 // Sonar Extension removes this
+#pragma warning restore CA1822 // Sonar Extension removes this
+#pragma warning restore S2325 // Sonar Extension removes this
 	{
 		return await Task.FromResult("");
 	}
