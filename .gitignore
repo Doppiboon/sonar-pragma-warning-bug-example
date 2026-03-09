@@ -1,0 +1,50 @@
+﻿*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+packages/
+
+# Visual Studio Code
+.vscode
+
+# Rider
+.idea
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.nuget.props
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
+
+# Inhouse
+[Tt]est[Rr]esults/
+[Dd]ocumentation/[Hh]elp/
+DocumentationExternalReferences/[Hh]elp
+
+/docfx_project
+FrontendWebApplication/wwwroot/Scripts/Inhouse/
+
+#Stryker
+Stryker.Test/
